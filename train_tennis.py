@@ -2,13 +2,13 @@ import copy
 import random
 from collections import deque, namedtuple
 
+import matplotlib.pyplot as plt
 import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 
-import matplotlib.pyplot as plt
 from unityagents import UnityEnvironment
 
 env = UnityEnvironment(file_name="Tennis_Linux/Tennis.x86_64")
